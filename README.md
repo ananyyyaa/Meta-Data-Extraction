@@ -19,4 +19,5 @@ Match each metadata label with the most similar sentence.
 **Requirements**
 
 Install these packages in a Python 3.10+ environment: pip install pandas python-docx PyPDF2 pytesseract pillow scikit-learn
+
 Tesseract Installation 
