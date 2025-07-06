@@ -9,8 +9,11 @@ This system uses a torch-free, lightweight AI-based metadata extraction system t
 **Pipeline Steps**
 
 Preprocessing: Load test files based on filename prefix matching from test.csv
+
 Text Extraction: Extract full text from .docx, .pdf, or .png using: python-docx PyPDF2 pytesseract (OCR for images)
+
 Convert all document sentences and metadata labels into vectors.
+
 Match each metadata label with the most similar sentence.
 
 **Requirements**
